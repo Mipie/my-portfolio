@@ -1,0 +1,217 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+}
+
+#work {
+    height: 1450px;
+}
+
+#about {
+    height: 650px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    overflow: auto;
+}
+
+
+/***** HEADER SECTION *****/
+header {
+    height: 800px;
+    background: url('../img/my-header.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #FF3B0A;
+    margin: 0px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #FF0251;
+}
+
+
+/***** WORK SECTION *****/
+#work {
+    color: #FF0251;
+}
+
+
+#work h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+}
+
+#work h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#work h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+#work ul{
+    list-style: none;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#work p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+/* PROJECT THUMBNAILS */
+#rogue-pickings {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border: #FF0251 solid 1px;
+}
+
+#jubilee-austen {
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border: #FF0251 solid 1px;
+}
+
+#holstee-manifesto {
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border: #FF0251 solid 1px;
+}
+/* PROJECT THUMBNAILS */
+
+.rogue-title {
+    padding-top: 45px;
+}
+
+.jubilee-title {
+    padding-top: 232px;
+}
+
+.holstee-title {
+    padding-top: 232px;
+}
+
+/***** ABOUT SECTION *****/
+#about {
+    background-color: #FF0251;
+    color: white;
+}
+
+#about img {
+   margin-top: 6px;
+}
+
+#about h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#about h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#about p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 0px;
+}
+
+/*****CONTACT SECTION *****/
+footer {
+    background-color: #E809BF;
+    margin-right: 0px;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.contact-img {
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#copyright p {
+    margin: 0px;
+    text-align: center;
+}
+
+
